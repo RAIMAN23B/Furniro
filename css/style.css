@@ -1,0 +1,160 @@
+
+ /* All Common CSS Start */
+
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+  a{
+    text-decoration: none;
+    display: inline-block;
+  }
+
+   ul,ol{
+    list-style-type: none;
+   }
+
+   h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+   }
+
+  .container{
+    width: 1320px;
+    margin: 0 auto;
+  }
+
+
+/* All Common CSS End */
+
+
+ 
+    /* Header Part Start  */
+     #StartPart{
+        padding: 40px 0;
+        background: #ffff;
+     }
+
+    .FirstOne{
+        display: flex;
+        justify-content: space-between;
+      
+    }
+     
+    .menu{
+      padding-top: 12px;
+    }
+
+
+    .menu ul, li{
+        display: inline-block;
+    }
+
+
+    .menu ul, li a{
+       padding: 0 38px;
+       font-size: 15px;
+       font-family: "Poppins", sans-serif;
+       font-weight: 600;
+       color: black;
+    }
+
+    .icons i{
+        padding: 0px 23px;
+        padding-top: 12px;
+    }
+
+   /* Header Part End   */
+    
+   
+
+
+
+
+    /* Banner Part Start  */
+
+    #SecondPart{
+      padding-top: 162px;
+      padding-bottom: 127px;
+      background: url(../images/PICS\ 1.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;    
+    }
+     
+    .SecondOne{
+      display: flex;
+    }
+
+    .SecondLeft{
+      width: 50%;
+    }
+
+    .SecondRight{
+      width: 50%;
+      background:#FFF3E3 ;
+      border-radius: 10px;
+    }
+
+    .SecondText{
+    padding: 72px 40px;
+    }
+
+    .SecondText h3{
+      font-size: 17px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      color: #333333;
+      margin-bottom: 20px;
+    }
+
+
+    .SecondText h1{
+      font-size: 55px;
+       font-family: "Poppins", sans-serif;
+       font-weight: 750;
+       color: #B88E2F;
+       margin-bottom: 18px;
+       line-height: 65px;
+       margin-right: 110px;
+    }
+
+
+   .SecondText p{
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 550;
+    color: #333333;
+    margin-bottom: 23px; 
+    line-height: 25px;
+    margin-right: 60px;
+    }
+
+     .SecondText a{
+       padding: 30px 72px; 
+       background: #B88E2F; 
+       font-size: 18px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 750;
+      color: #ffff; 
+      margin-bottom: 10px;
+       
+     }
+    
+
+    /* Banner Part End   */
+    /* Header Part Start  */
+    /* Header Part End   */
+    /* Header Part Start  */
+    /* Header Part End   */
+    /* Header Part Start  */
+    /* Header Part End   */
+    /* Header Part Start  */
+    /* Header Part End   */
+    /* Header Part Start  */
+    /* Header Part End   */
+    /* Header Part Start  */
+    /* Header Part End   */
+   
