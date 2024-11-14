@@ -30,27 +30,45 @@
 /* All Common CSS End */
 
 
+
+
+
+
  
-    /* Header Part Start  */
+    /* First Part Start  */
+
+
+
      #StartPart{
         padding: 40px 0;
         background: #ffff;
      }
 
+
+
+
     .FirstOne{
         display: flex;
         justify-content: space-between;
-      
     }
      
+
+
+
     .menu{
       padding-top: 12px;
     }
 
 
+
+
+
     .menu ul, li{
         display: inline-block;
     }
+
+
+
 
 
     .menu ul, li a{
@@ -61,19 +79,28 @@
        color: black;
     }
 
+
+
+
     .icons i{
         padding: 0px 23px;
         padding-top: 12px;
     }
 
-   /* Header Part End   */
+
+
+
+   /* First Part End   */
     
    
 
 
 
 
-    /* Banner Part Start  */
+    /* Second Part Start  */
+
+
+
 
     #SecondPart{
       padding-top: 162px;
@@ -84,13 +111,22 @@
       background-size: cover;    
     }
      
+
+
+
     .SecondOne{
       display: flex;
     }
 
+
+
+
     .SecondLeft{
       width: 50%;
     }
+
+
+
 
     .SecondRight{
       width: 50%;
@@ -98,9 +134,15 @@
       border-radius: 10px;
     }
 
+
+
+
     .SecondText{
     padding: 72px 40px;
     }
+
+
+
 
     .SecondText h3{
       font-size: 17px;
@@ -111,15 +153,23 @@
     }
 
 
+
+
     .SecondText h1{
-      font-size: 55px;
-       font-family: "Poppins", sans-serif;
-       font-weight: 750;
-       color: #B88E2F;
-       margin-bottom: 18px;
-       line-height: 65px;
-       margin-right: 110px;
+     font-size: 55px;
+     font-family: "Poppins", sans-serif;
+     font-weight: 750;
+     color: #B88E2F;
+     margin-bottom: 18px;
+     line-height: 65px;
+     margin-right: 110px;
     }
+
+
+
+
+
+
 
 
    .SecondText p{
@@ -132,10 +182,19 @@
     margin-right: 60px;
     }
 
+
+
+
+
+
+
+
+
+
      .SecondText a{
-       padding: 30px 72px; 
-       background: #B88E2F; 
-       font-size: 18px;
+      padding: 30px 72px; 
+      background: #B88E2F; 
+      font-size: 18px;
       font-family: "Poppins", sans-serif;
       font-weight: 750;
       color: #ffff; 
@@ -144,13 +203,590 @@
      }
     
 
-    /* Banner Part End   */
-    /* Header Part Start  */
-    /* Header Part End   */
-    /* Header Part Start  */
-    /* Header Part End   */
-    /* Header Part Start  */
-    /* Header Part End   */
+
+
+
+    /* Second Part End   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Third Part Start  */
+
+
+    #ThirdPart{
+      padding-top: 66px;
+      padding-bottom: 55px;
+     
+    }
+
+
+     .ThirdItemPart{
+      text-align: center;
+     }
+
+
+     
+     .ThirdItemPart h3{
+      padding-bottom: 20px;
+      font-family:"Poppins", sans-serif;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 20px;
+      color: #333333;
+     }
+
+
+     
+     .ThirdItemPart p{
+      padding-top: 20px;
+      font-family:"Poppins", sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 15px;
+      color: #666666;
+     }
+
+
+
+
+
+     .ThirdItemImg{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 80px;
+     }
+
+
+
+    .ThirdImg{
+      width: 32%;
+      text-align: center;
+    }
+
+
+    .ThirdImg img{
+      width: 100%;
+    }
+
+
+    .ThirdImg h2{
+      padding-top: 30px;
+     font-family:"Poppins", sans-serif;
+     font-size: 25px;
+     font-weight: 600;
+     color: #333333;
+     line-height: 15px;
+    }
+
+
+
+
+
+    /* Third Part End   */
+
+
+    
+    #FourthPart{
+      padding-top: 20px;
+      padding-bottom: 35px;
+     
+    }
+
+
+
+   .FourthItemMenu{
+    text-align: center;
+   }
+
+
+   .FourthItemMenu h3{
+     font-family:"Poppins", sans-serif;
+     font-size: 40px;
+     font-weight: bold;
+     color: #3A3A3A;
+   }
+
+
+
+     .FourthItemPart{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+     }
+
+
+
+     .FourthOne{
+      width: 23%;
+      position: relative;
+     }
+
+
+
+     .FourthOne img{
+      width: 100%;
+      display: block;
+     }
+
+
+     
+     .FourthBadge{
+      position: absolute;
+      height: 50px;
+      width: 50px;
+      background: rgba(255, 0, 0, 0.511);
+      border-radius: 50%;
+      top: 20px;
+      right: 20px;
+     }
+
+
+     .FourthNewBadge{
+      position: absolute;
+      height: 50px;
+      width: 50px;
+      background:#00ff9d72 ;
+      border-radius: 50%;
+      top: 20px;
+      right: 20px;
+     }
+
+      
+     .BadgeItem{
+      position: absolute;
+      color: #ffff;
+      top: 50%; left: 60%;
+      transform: translate(-50%, -50%);
+      font-size: 18px;
+      font-weight: 600;
+     }
+
+
+     .BadgeNewItem{
+      position: absolute;
+      color: #ffff;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 18px;
+      font-weight: 600;
+     }
+
+
+     .BadgeItem span{
+      position: absolute;
+      margin-top: -2px;
+      margin-left: -8px;
+      }
+
+
+
+     
+
+
+
+     .FourthItemText{
+       background:#F4F5F7; 
+       padding-top: 15px;
+      padding-bottom: 25px;
+     }
+
+
+     .FourthItemText h4{
+      padding-top: 10px;
+      margin-left: 16px; 
+      font-family:"Poppins", sans-serif;
+      font-size: 25px;
+      font-weight: 600;
+      color: #3A3A3A;
+      line-height: 15px;
+     }
+
+
+     
+     .FourthItemText p{
+      padding-top: 20px;
+      margin-left: 15px; 
+      font-family:"Poppins", sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      color: #898989;
+      line-height: 15px;
+     }
+
+
+
+     
+      .FourthItemText h3{
+      padding-top: 20px;
+      margin-left: 15px; 
+      font-family:"Poppins", sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      color: #3A3A3A;
+      line-height: 15px;
+     } 
+
+
+   
+     .FourthItemText h3 span{
+      
+      margin-left: 23px; 
+      font-family:"Poppins", sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      color: #B0B0B0;
+      line-height: 10px;
+     } 
+
+
+
+     .FourthShadow{
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.4);
+      top: 0; left: 0;
+     }
+
+
+      
+
+     .FourthShadow a{
+      position: absolute;
+      padding: 12px 28px; 
+      top: 44%; left: 50%;
+      transform: translate(-50%, -50%);
+      color: #B88E2F;
+      background: white;
+      font-family:"Poppins", sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+      
+     }
+
+
+      .FourthIcons{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+      }
+
+
+
+      .FourthIcons{
+        position: absolute;
+        width: 70%;
+       
+       }
+
+
+
+       .Icons  i{
+        position: absolute;
+        padding: 225px 17px; 
+        color: #ffff;
+      }
+
+
+      .Icons  p {
+        position: absolute;
+        margin: 227px 35px; 
+        color: #ffff;
+        font-family:"Poppins", sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+      }
+      
+
+      .IconsOne p{
+        position: absolute;
+        margin: 227px 20px; 
+        color: #ffff;
+        font-family:"Poppins", sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+      }
+    
+     
+      .IconsOne i{
+        position: absolute;
+        padding: 225px 3px; 
+        color: #ffff;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Fourth Part Start  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Fourth Part End   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Fifth Part Start  */
+
+
+    #FifthPart{
+      padding-top: 0px;
+      padding-bottom: 60px;
+    }
+
+
+    .FifthItemPart{
+      display: flex;
+      justify-content: space-between;
+      
+    }
+
+
+
+     .FifthOnePart{
+      width: 23%;
+      position: relative;
+     }
+
+
+
+     
+     .FifthOnePart img{
+      width: 100%;
+      display: block;
+     }
+
+
+
+
+     .FifthItemText{
+      background:#F4F5F7; 
+      padding-top: 15px;
+     padding-bottom: 25px;
+    }
+
+
+    .FifthItemText h4{
+     padding-top: 10px;
+     margin-left: 16px; 
+     font-family:"Poppins", sans-serif;
+     font-size: 25px;
+     font-weight: 600;
+     color: #3A3A3A;
+     line-height: 15px;
+    }
+
+
+    
+    .FifthItemText p{
+     padding-top: 20px;
+     margin-left: 15px; 
+     font-family:"Poppins", sans-serif;
+     font-size: 15px;
+     font-weight: 600;
+     color: #898989;
+     line-height: 15px;
+    }
+
+
+
+    
+     .FifthItemText h3{
+     padding-top: 20px;
+     margin-left: 15px; 
+     font-family:"Poppins", sans-serif;
+     font-size: 22px;
+     font-weight: 700;
+     color: #3A3A3A;
+     line-height: 15px;
+    } 
+
+
+     
+    .FifthItemText h3 span{
+      
+      margin-left: 23px; 
+      font-family:"Poppins", sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      color: #B0B0B0;
+      line-height: 10px;
+     } 
+
+
+
+
+     .FifthBadge{
+      position: absolute;
+      height: 50px;
+      width: 50px;
+      background:#00ff9d72 ;
+      border-radius: 50%;
+      top: 20px;
+      right: 20px;
+     }
+
+
+    
+
+
+     .BadgeLodge{
+      position: absolute;
+      color: #ffff;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 18px;
+      font-weight: 600;
+     }
+
+
+     
+
+     
+     .BadgeRager{
+      position: absolute;
+      height: 50px;
+      width: 50px;
+      background: rgba(255, 0, 0, 0.511);
+      border-radius: 50%;
+      top: 20px;
+      right: 20px;
+     }
+
+
+
+      
+      .BadgeRumble{
+      position: absolute;
+      color: #ffff;
+      top: 50%; left: 60%;
+      transform: translate(-50%, -50%);
+      font-size: 18px;
+      font-weight: 600;
+     } 
+
+
+
+
+     .BadgeRumble span{
+      position: absolute;
+      margin-top: -2px;
+      margin-left: -8px;
+      }
+
+
+
+       .FifthTwoPart{
+        text-align: center;
+        padding-top: 50px;
+       }
+
+
+      
+
+       .FifthTwoPart a{
+        padding: 10px 60px; 
+        color: #B88E2F;
+       background:#b88f2f20 ;
+       font-family:"Poppins", sans-serif;
+       font-weight: 600;
+       font-size: 20px;
+       }
+
+
+
+
+
+
+
+
+
+
+    /* Fifth Part End   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /* Header Part Start  */
     /* Header Part End   */
     /* Header Part Start  */
